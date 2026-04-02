@@ -22,3 +22,17 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Installed Python from `python.org`
 * Installed Jupyter Notebook via `pip install jupyterlab`
 * Installed data manipulation libraries `numpy` and `pandas`
+
+---
+
+**4. Day 2: Data Tables ( Pandas )**
+
+* Learned to create a **DataFrame** (Table) using the `pandas` library.
+* Organized raw data into rows and columns for better visualization.
+* Handled file extension errors and Git merge conflicts.
+
+**5. Day 3: Numerical Python ( NumPy )**
+
+* Introduced **NumPy**, the foundation of math in Machine Learning.
+* Learned that **Arrays** are much faster than normal Python lists.
+* **Vectorization:** Performed math operations on entire lists without using loops.
