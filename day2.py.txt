@@ -1,0 +1,13 @@
+import pandas as pd
+
+# This is our raw data
+data = {
+    'Item': ['Laptop', 'Mouse', 'Monitor'],
+    'Price': [50000, 1000, 8000]
+}
+
+# This command converts the data into a neat Table (DataFrame)
+df = pd.DataFrame(data)
+
+print("--- My Day 2 Table ---")
+print(df)
