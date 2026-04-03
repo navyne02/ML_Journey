@@ -36,3 +36,13 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Introduced **NumPy**, the foundation of math in Machine Learning.
 * Learned that **Arrays** are much faster than normal Python lists.
 * **Vectorization:** Performed math operations on entire lists without using loops.
+
+---
+
+**6. Day 4: Data Cleaning ( Handling Missing Data )**
+
+* Learned that real-world data is often messy and contains missing values known as **NaN** (Not a Number).
+* Used Pandas `fillna()` function to clean the dataset before feeding it to an ML model.
+* Practiced two data imputation techniques:
+  1. Filling missing categorical/numerical data with a default value (e.g., 0).
+  2. Filling missing numerical data with the calculated **Mean** (Average).
