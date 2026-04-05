@@ -53,4 +53,12 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 
 * Learned that visualizing data makes it easier to spot patterns and trends.
 * Used the `matplotlib` library to draw graphs in Python.
-* Created a Line Chart with customized markers, colors, and labels to track progress.    
+* Created a Line Chart with customized markers, colors, and labels to track progress.
+
+  ---
+
+**8. Day 6: My First ML Model ( Linear Regression )**
+
+* Installed and introduced `scikit-learn` library.
+* Understood how a machine learns patterns from existing data using **Linear Regression**.
+* Successfully trained a model to predict marks based on study hours!
