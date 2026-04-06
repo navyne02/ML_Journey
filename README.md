@@ -62,3 +62,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Installed and introduced `scikit-learn` library.
 * Understood how a machine learns patterns from existing data using **Linear Regression**.
 * Successfully trained a model to predict marks based on study hours!
+
+---
+
+**9. Day 7: Classification Models ( Logistic Regression )**
+
+* Shifted from predicting continuous numbers (Regression) to predicting categories (Classification).
+* Learned how **Logistic Regression** uses an S-Curve (Sigmoid function) to classify data into 0 or 1 (Fail/Pass).
+* Successfully trained a model to classify a student's exam result based on study hours!
