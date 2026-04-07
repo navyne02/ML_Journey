@@ -70,3 +70,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Shifted from predicting continuous numbers (Regression) to predicting categories (Classification).
 * Learned how **Logistic Regression** uses an S-Curve (Sigmoid function) to classify data into 0 or 1 (Fail/Pass).
 * Successfully trained a model to classify a student's exam result based on study hours!
+
+---
+
+**10. Day 8: Unsupervised Learning ( K-Means Clustering )**
+
+* Explored **Unsupervised Learning**, where the model finds hidden patterns without labeled answers.
+* Used the **K-Means algorithm** to group unlabeled customer data into distinct segments.
+* Visualized the AI-generated clusters using a scatter plot.
