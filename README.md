@@ -78,3 +78,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Explored **Unsupervised Learning**, where the model finds hidden patterns without labeled answers.
 * Used the **K-Means algorithm** to group unlabeled customer data into distinct segments.
 * Visualized the AI-generated clusters using a scatter plot.
+
+---
+
+**11. Day 9: Model Evaluation ( Train / Test Split )**
+
+* Learned the importance of not testing a model on the same data it was trained on.
+* Used `train_test_split` from Scikit-Learn to divide data into **80% Training** and **20% Testing** sets.
+* Evaluated the model's performance on unseen data using the `accuracy_score` metric.
