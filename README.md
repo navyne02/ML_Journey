@@ -70,3 +70,19 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Shifted from predicting continuous numbers (Regression) to predicting categories (Classification).
 * Learned how **Logistic Regression** uses an S-Curve (Sigmoid function) to classify data into 0 or 1 (Fail/Pass).
 * Successfully trained a model to classify a student's exam result based on study hours!
+
+---
+
+**10. Day 8: Unsupervised Learning ( K-Means Clustering )**
+
+* Explored **Unsupervised Learning**, where the model finds hidden patterns without labeled answers.
+* Used the **K-Means algorithm** to group unlabeled customer data into distinct segments.
+* Visualized the AI-generated clusters using a scatter plot.
+
+---
+
+**11. Day 9: Model Evaluation ( Train / Test Split )**
+
+* Learned the importance of not testing a model on the same data it was trained on.
+* Used `train_test_split` from Scikit-Learn to divide data into **80% Training** and **20% Testing** sets.
+* Evaluated the model's performance on unseen data using the `accuracy_score` metric.
