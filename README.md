@@ -86,3 +86,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned the importance of not testing a model on the same data it was trained on.
 * Used `train_test_split` from Scikit-Learn to divide data into **80% Training** and **20% Testing** sets.
 * Evaluated the model's performance on unseen data using the `accuracy_score` metric.
+
+---
+
+**12. Day 10: Non-Linear Classification ( Decision Trees )**
+
+* Learned that not all data can be separated by a simple line.
+* Explored **Decision Trees**, which make predictions by asking a series of Yes/No questions.
+* Built a model that acts like a flowchart to classify student performance based on attendance and study hours.
