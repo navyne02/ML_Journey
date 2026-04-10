@@ -94,3 +94,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned that not all data can be separated by a simple line.
 * Explored **Decision Trees**, which make predictions by asking a series of Yes/No questions.
 * Built a model that acts like a flowchart to classify student performance based on attendance and study hours.
+
+  ---
+
+**13. Day 11: Ensemble Learning ( Random Forest )**
+
+* Discovered the power of **Ensemble Learning**, where multiple models work together.
+* Used **Random Forest Classifier** to combine the predictions of several Decision Trees via voting.
+* Learned that a Random Forest prevents "overfitting" and provides much more accurate and stable results than a single tree.
