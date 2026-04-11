@@ -102,3 +102,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Discovered the power of **Ensemble Learning**, where multiple models work together.
 * Used **Random Forest Classifier** to combine the predictions of several Decision Trees via voting.
 * Learned that a Random Forest prevents "overfitting" and provides much more accurate and stable results than a single tree.
+
+---
+
+**14. Day 12: Distance-Based ML ( K-Nearest Neighbors )**
+
+* Learned the **K-Nearest Neighbors (KNN)** algorithm, which classifies data based on its proximity to other data points.
+* Understood how the value of 'K' determines the number of neighbors to "vote" on a new data point's category.
+* Built a KNN model to classify player roles based on performance statistics.
