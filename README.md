@@ -118,3 +118,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Took the first step into **Deep Learning** by understanding Artificial Neural Networks.
 * Learned how input data passes through **Hidden Layers** (neurons) to find complex, non-linear patterns.
 * Built a `MLPClassifier` to predict outcomes based on the interaction between multiple variables (like study and sleep balance).
+
+---
+
+**16. Day 14: Maximum Margin Classifier ( SVM )**
+
+* Learned how **Support Vector Machines (SVM)** find the best possible line (hyperplane) to separate data.
+* Understood the concept of maximizing the "margin" between classes to improve model accuracy.
+* Built a basic Spam Detector using `sklearn.svm.SVC` to classify messages based on specific features.
