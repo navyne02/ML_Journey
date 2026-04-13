@@ -110,3 +110,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned the **K-Nearest Neighbors (KNN)** algorithm, which classifies data based on its proximity to other data points.
 * Understood how the value of 'K' determines the number of neighbors to "vote" on a new data point's category.
 * Built a KNN model to classify player roles based on performance statistics.
+
+---
+
+**15. Day 13: Deep Learning Basics ( Neural Networks )**
+
+* Took the first step into **Deep Learning** by understanding Artificial Neural Networks.
+* Learned how input data passes through **Hidden Layers** (neurons) to find complex, non-linear patterns.
+* Built a `MLPClassifier` to predict outcomes based on the interaction between multiple variables (like study and sleep balance).
