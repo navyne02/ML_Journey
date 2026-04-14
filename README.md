@@ -126,3 +126,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned how **Support Vector Machines (SVM)** find the best possible line (hyperplane) to separate data.
 * Understood the concept of maximizing the "margin" between classes to improve model accuracy.
 * Built a basic Spam Detector using `sklearn.svm.SVC` to classify messages based on specific features.
+
+  ---
+
+**17. Day 15: Data Pre-processing ( Feature Scaling )**
+
+* Discovered the importance of **Feature Scaling** before feeding data into distance-based algorithms like KNN and SVM.
+* Used `MinMaxScaler` from Scikit-Learn to normalize data features with drastically different ranges (e.g., Age vs. Salary).
+* Learned that scaling transforms all features into a uniform range (usually 0 to 1), preventing larger numbers from dominating the AI model's logic.
