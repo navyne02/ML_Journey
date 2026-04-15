@@ -134,3 +134,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Discovered the importance of **Feature Scaling** before feeding data into distance-based algorithms like KNN and SVM.
 * Used `MinMaxScaler` from Scikit-Learn to normalize data features with drastically different ranges (e.g., Age vs. Salary).
 * Learned that scaling transforms all features into a uniform range (usually 0 to 1), preventing larger numbers from dominating the AI model's logic.
+
+---
+
+**18. Day 16: Model Persistence ( Saving and Loading )**
+
+* Learned that training a model every time a script runs is inefficient.
+* Used the `joblib` library to serialize (save) a trained Machine Learning model into a `.pkl` file.
+* Successfully deserialized (loaded) the saved model to make future predictions without retraining.
