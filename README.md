@@ -150,3 +150,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned the difference between Model Parameters (learned from data) and **Hyperparameters** (set by the user).
 * Understood the dangers of **Overfitting** (memorizing data) and **Underfitting** (failing to learn).
 * Used `GridSearchCV` to automatically test multiple combinations of hyperparameters and find the most optimal settings for a model.
+
+---
+
+**20. Day 18: Streamlining Workflows ( ML Pipelines )**
+
+* Learned how to automate the machine learning workflow using `sklearn.pipeline.Pipeline`.
+* Combined data pre-processing (`MinMaxScaler`) and model training (`LogisticRegression`) into a single, cohesive object.
+* Discovered how pipelines make code cleaner, prevent data leakage, and simplify making predictions on new data.
