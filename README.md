@@ -158,3 +158,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned how to automate the machine learning workflow using `sklearn.pipeline.Pipeline`.
 * Combined data pre-processing (`MinMaxScaler`) and model training (`LogisticRegression`) into a single, cohesive object.
 * Discovered how pipelines make code cleaner, prevent data leakage, and simplify making predictions on new data.
+
+  ---
+
+**21. Day 19: Natural Language Processing ( Sentiment Analysis )**
+
+* Entered the world of **NLP (Natural Language Processing)** to teach the machine how to understand text.
+* Used `CountVectorizer` to convert text data into numerical vectors (Bag of Words).
+* Built a Sentiment Analysis model using the `MultinomialNB` (Naive Bayes) algorithm within a Pipeline to classify movie reviews as Positive or Negative.
