@@ -166,3 +166,13 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Entered the world of **NLP (Natural Language Processing)** to teach the machine how to understand text.
 * Used `CountVectorizer` to convert text data into numerical vectors (Bag of Words).
 * Built a Sentiment Analysis model using the `MultinomialNB` (Naive Bayes) algorithm within a Pipeline to classify movie reviews as Positive or Negative.
+
+  ---
+
+**22. Day 20: Model Deployment ( Streamlit Web App )**
+
+* Reached the final milestone: Deploying a Machine Learning model!
+* Used the `streamlit` library to convert a Python ML script into a fully functional, interactive Web Application.
+* Created a user interface with text inputs and buttons, allowing non-technical users to interact with the NLP Sentiment Analysis model easily.
+
+  ---
