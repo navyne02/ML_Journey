@@ -176,3 +176,10 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Created a user interface with text inputs and buttons, allowing non-technical users to interact with the NLP Sentiment Analysis model easily.
 
   ---
+  
+**23. Bonus Project (Day 21): Smart Cuisine Predictor & Restaurant Finder 🍕**
+
+* Built an end-to-end Machine Learning web application using **Streamlit**.
+* Integrated **Natural Language Processing (`CountVectorizer`)** with a **`RandomForestClassifier`** inside an ML Pipeline to predict cuisines based on raw ingredients.
+* Implemented a recommendation system to filter, rank, and suggest top-rated restaurants based on the AI's cuisine prediction.
+* Transitioned from learning individual algorithms to building a complete, user-facing AI product suitable for portfolio display!
