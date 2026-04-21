@@ -183,3 +183,12 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Integrated **Natural Language Processing (`CountVectorizer`)** with a **`RandomForestClassifier`** inside an ML Pipeline to predict cuisines based on raw ingredients.
 * Implemented a recommendation system to filter, rank, and suggest top-rated restaurants based on the AI's cuisine prediction.
 * Transitioned from learning individual algorithms to building a complete, user-facing AI product suitable for portfolio display!
+
+---
+
+**24. Day 22: Content-Based Filtering ( Recommendation Systems ) 🎬**
+
+* Built a simple Recommendation Engine inspired by platforms like Netflix and Spotify.
+* Used **Natural Language Processing (`CountVectorizer`)** to convert movie tags and genres into numerical vectors.
+* Applied **Cosine Similarity** (`sklearn.metrics.pairwise.cosine_similarity`) to mathematically calculate the distance/similarity between different movies.
+* Created a function that takes a watched movie as input and outputs the top recommended movies based on feature overlap.
