@@ -201,3 +201,12 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Used the built-in `digits` dataset from Scikit-Learn to train a model on handwritten numbers.
 * Applied the **Support Vector Machine (SVM)** algorithm to classify the 8x8 pixel images.
 * Visualized the AI's prediction alongside the actual pixelated image using `matplotlib`.
+
+---
+
+**26. Day 24: Unsupervised Learning ( K-Means Clustering ) 🧩**
+
+* Transitioned from Supervised to **Unsupervised Learning**, where data has no labels or answers.
+* Learned the **K-Means Clustering** algorithm to automatically group data based on similarities (distance).
+* Used `sklearn.cluster.KMeans` to segment a generated dataset into distinct customer groups.
+* Visualized the clusters and their calculated centroids using `matplotlib`.
