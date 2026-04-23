@@ -192,3 +192,21 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Used **Natural Language Processing (`CountVectorizer`)** to convert movie tags and genres into numerical vectors.
 * Applied **Cosine Similarity** (`sklearn.metrics.pairwise.cosine_similarity`) to mathematically calculate the distance/similarity between different movies.
 * Created a function that takes a watched movie as input and outputs the top recommended movies based on feature overlap.
+
+---
+
+**25. Day 23: Intro to Computer Vision ( Image Classification ) 👁️**
+
+* Took the first step into **Computer Vision** by understanding how computers process images as numerical arrays (pixels).
+* Used the built-in `digits` dataset from Scikit-Learn to train a model on handwritten numbers.
+* Applied the **Support Vector Machine (SVM)** algorithm to classify the 8x8 pixel images.
+* Visualized the AI's prediction alongside the actual pixelated image using `matplotlib`.
+
+---
+
+**26. Day 24: Unsupervised Learning ( K-Means Clustering ) 🧩**
+
+* Transitioned from Supervised to **Unsupervised Learning**, where data has no labels or answers.
+* Learned the **K-Means Clustering** algorithm to automatically group data based on similarities (distance).
+* Used `sklearn.cluster.KMeans` to segment a generated dataset into distinct customer groups.
+* Visualized the clusters and their calculated centroids using `matplotlib`.
