@@ -210,3 +210,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned the **K-Means Clustering** algorithm to automatically group data based on similarities (distance).
 * Used `sklearn.cluster.KMeans` to segment a generated dataset into distinct customer groups.
 * Visualized the clusters and their calculated centroids using `matplotlib`.
+
+---
+
+**27. Day 25: Dimensionality Reduction ( PCA ) 📉**
+
+* Explored **Principal Component Analysis (PCA)**, an Unsupervised Learning technique used to compress data while retaining its core information.
+* Used `sklearn.decomposition.PCA` to reduce the high-dimensional `digits` dataset (64 features) down to just 2 principal components.
+* Successfully visualized a 64-dimensional dataset on a 2D scatter plot, observing how similar digits naturally cluster together in the reduced space.
