@@ -218,3 +218,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Explored **Principal Component Analysis (PCA)**, an Unsupervised Learning technique used to compress data while retaining its core information.
 * Used `sklearn.decomposition.PCA` to reduce the high-dimensional `digits` dataset (64 features) down to just 2 principal components.
 * Successfully visualized a 64-dimensional dataset on a 2D scatter plot, observing how similar digits naturally cluster together in the reduced space.
+
+---
+
+**28. Day 26: Outlier Detection ( Anomaly Detection ) 🕵️‍♂️**
+
+* Explored the critical field of **Anomaly Detection**, widely used in cyber-security and fraud detection.
+* Used the **`IsolationForest`** algorithm to identify rare, suspicious data points (outliers) within a dataset.
+* Built a simulated Credit Card Fraud Detection model that automatically separates normal transactions from anomalous ones without needing pre-labeled data.
