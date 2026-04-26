@@ -226,3 +226,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Explored the critical field of **Anomaly Detection**, widely used in cyber-security and fraud detection.
 * Used the **`IsolationForest`** algorithm to identify rare, suspicious data points (outliers) within a dataset.
 * Built a simulated Credit Card Fraud Detection model that automatically separates normal transactions from anomalous ones without needing pre-labeled data.
+
+---
+
+**29. Day 27: Advanced NLP ( Fake News Detection ) 📰**
+
+* Upgraded from simple Bag of Words to **TF-IDF (Term Frequency - Inverse Document Frequency)**.
+* Understood how to penalize common stop words and assign higher weights to rare, significant words in a corpus.
+* Built a text classification pipeline using `TfidfVectorizer` and `LogisticRegression` to detect sensationalized fake news headlines.
