@@ -234,3 +234,11 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Upgraded from simple Bag of Words to **TF-IDF (Term Frequency - Inverse Document Frequency)**.
 * Understood how to penalize common stop words and assign higher weights to rare, significant words in a corpus.
 * Built a text classification pipeline using `TfidfVectorizer` and `LogisticRegression` to detect sensationalized fake news headlines.
+
+---
+
+**30. Day 28: Sequential Ensemble Learning ( Gradient Boosting ) 👑**
+
+* Learned the difference between parallel learning (Random Forest) and sequential learning (**Gradient Boosting**).
+* Understood how Gradient Boosting builds trees one by one, where each new tree focuses on correcting the errors (residuals) of the previous ones.
+* Implemented `GradientBoostingClassifier` to predict Customer Churn based on subscription duration, bill amount, and support tickets.
