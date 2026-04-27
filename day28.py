@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 X = np.array([
     [12, 500, 0],  # Happy customer (Long time, low bill, no complaints)
     [2, 1500, 4],  # Unhappy (New, high bill, 4 complaints) -> Will leave!
-    [24, 600, 1],  # Happy
+    [24, 600, 1],  # Happyy
     [1, 2000, 5],  # Very Unhappy
     [36, 400, 0],  # Loyal customer
     [3, 1800, 3]   # Unhappy
