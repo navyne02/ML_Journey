@@ -242,3 +242,12 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned the difference between parallel learning (Random Forest) and sequential learning (**Gradient Boosting**).
 * Understood how Gradient Boosting builds trees one by one, where each new tree focuses on correcting the errors (residuals) of the previous ones.
 * Implemented `GradientBoostingClassifier` to predict Customer Churn based on subscription duration, bill amount, and support tickets.
+
+---
+
+**31. Day 29: Large Language Models ( Transformers & Hugging Face ) 🤖**
+
+* Entered the modern era of Generative AI by utilizing the **Transformers** architecture.
+* Learned how Large Language Models (LLMs) generate text by predicting the next word based on probability and context.
+* Used the `transformers` library by Hugging Face to load a pre-trained **GPT-2** model.
+* Built a text-generation pipeline to automatically write continuations to user-provided prompts.
