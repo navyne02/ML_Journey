@@ -251,3 +251,12 @@ This initial commit introduces the fundamental concepts of Machine Learning (ML)
 * Learned how Large Language Models (LLMs) generate text by predicting the next word based on probability and context.
 * Used the `transformers` library by Hugging Face to load a pre-trained **GPT-2** model.
 * Built a text-generation pipeline to automatically write continuations to user-provided prompts.
+
+---
+
+**32. Day 30: The Grand Finale - Building an AI Chatbot 🤖**
+
+* Combined **Streamlit Web Framework** and **Hugging Face Transformers** to build a full-stack Generative AI application.
+* Implemented `st.chat_message` and `st.session_state` to create a conversational user interface with a persistent chat history.
+* Deployed a local Large Language Model (`gpt-2`) via pipeline to interactively generate text based on user prompts.
+* **🎉 Successfully completed the 30-Day Advanced Machine Learning & AI Challenge! 🎉**
