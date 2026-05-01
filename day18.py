@@ -2,38 +2,35 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 import numpy as np
-
-# 1. Namma Raw Data (Age vs Salary)
 X = np.array([
-    [22, 15000],  # Junior
-    [25, 40000],  # Junior
-    [35, 90000],  # Senior
-    [50, 150000]  # Senior
+    [22, 15000], 
+    [25, 40000],  
+    [35, 90000],  
+    [50, 150000]  
 ])
-# 0 = Junior, 1 = Senior
 y = np.array([0, 0, 1, 1]) 
-
-# 2. Creating the Pipeline (The Assembly Line)
-# Step 1: Scale the data (0 to 1)
-# Step 2: Use Logistic Regression to classify
 my_pipeline = Pipeline([
     ('scaler', MinMaxScaler()),
     ('ai_model', LogisticRegression())
 ])
-
-# 3. Train the entire pipeline at once!
 print("Starting the Assembly Line... ⚙️")
 my_pipeline.fit(X, y)
-
-# 4. Test with a New Person
-# Vayasu 30, Sambalam 60,000 -> Ivar Junior ah? Senior ah?
 new_person = np.array([[30, 60000]])
-
-# Kavinganam: Namma manually scale panna thevai illai, Pipeline athave paathukkum!
 prediction = my_pipeline.predict(new_person)
-
 print("\n--- Pipeline Result ---")
 if prediction[0] == 1:
     print("AI predicts: This person is a SENIOR! 👔")
 else:
     print("AI predicts: This person is a JUNIOR! 💼")
+    
+# Importing Pipeline, a tool that chains multiple data processing steps together
+# Importing our Scaler (from Day 15) and our Logistic Regression model (from Day 7)
+# Setting up our raw data: Let's assume this is [Age, Salary]
+# The final results: 0 means JUNIOR, 1 means SENIOR
+# Building the Assembly Line (Pipeline): 
+# Step 1: The 'scaler' automatically squishes the raw numbers down to a 0-to-1 range
+# Step 2: The 'ai_model' takes that perfectly scaled data and learns the patterns
+# Training the Pipeline: This single command scales the data AND trains the model all at once!
+# Setting up a brand new person: Age 30, Salary 60,000
+# Asking the pipeline to predict. It will automatically scale this new data before predicting!
+# Printing the final prediction to see if they are a Junior or Senior
