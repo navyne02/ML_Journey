@@ -32,7 +32,7 @@ Before writing a single line of ML code, I had to rewire my thinking:
 | You define the logic | The machine discovers the logic |
 | Rigid, hand-crafted | Adaptive, data-driven |
 
-This shift — from **telling** a computer what to do, to **showing** it — is the heart of everything in this challenge......
+This shift — from **telling** a computer what to do, to **showing** it — is the heart of everything in this challenge...............
 
 ---
 
